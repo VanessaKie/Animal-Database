@@ -23,7 +23,7 @@ const Main = (props) => {
           <h4>{scientific_name}</h4>
           <ul>
             <li>Species: {class_name}</li>
-            <li>Red List Category: {category}</li>
+            <li className='cat'>{category}</li>
           </ul>
         </div>
         </>
